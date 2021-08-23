@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_height="wrap_content"
+    android:paddingBottom="5dp"
+    android:orientation="horizontal">
+    <RelativeLayout
+        android:id="@+id/relay67"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+        <RelativeLayout
+            android:id="@+id/relay34"
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:background="@color/colorPrimaryDark"
+            android:alpha="0.456"
+            android:layout_marginTop="40dp"/>
+
+        <TextView
+            android:id="@+id/myText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/relay34"
+            android:padding="15dp"
+            android:textSize="18dp"
+            android:text="You are about to add a new task. Are you sure you want to add this new task to your calender ?"/>
+
+        <RelativeLayout
+            android:id="@+id/cancel_relay"
+            android:layout_width="wrap_content"
+            android:layout_height="35sp"
+            android:layout_marginStart="15dp"
+            android:background="@drawable/ripplee"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/myText">
+            <ImageView
+                android:id="@+id/cancel_imageview"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_toEndOf="@id/cancel"
+                android:background="@drawable/cancel"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:id="@+id/cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:textColor="@color/colorPrimaryDark1"
+                android:text="Cancel"
+                android:textSize="13dp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/confirm_relay"
+            android:layout_width="wrap_content"
+            android:layout_height="35sp"
+            android:layout_marginEnd="15dp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/ripplee"
+            android:layout_below="@id/myText">
+            <ImageView
+                android:id="@+id/confirm-imageview"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_toEndOf="@id/confirm"
+                android:background="@drawable/confirm"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:id="@+id/confirm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:textColor="@color/colorPrimaryDark1"
+                android:text="Confirm"
+                android:textSize="13dp" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

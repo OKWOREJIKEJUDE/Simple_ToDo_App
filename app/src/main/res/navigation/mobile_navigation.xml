@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_my_calender">
+
+
+    <fragment
+        android:id="@+id/nav_my_calender"
+        android:name="com.e.simpletodo.My_Calender_Fragment"
+        android:label="My Calender"
+        tools:layout="@layout/fragment_my__calender_" />
+
+    <fragment
+        android:id="@+id/nav_notifications"
+        android:name="com.e.simpletodo.Notifications_Fragment"
+        android:label="Notifications"
+        tools:layout="@layout/fragment_notifications_" />
+
+    <fragment
+        android:id="@+id/nav_reports"
+        android:name="com.e.simpletodo.Reports_Fragment"
+        android:label="Reports"
+        tools:layout="@layout/fragment_reports_" />
+
+
+    <fragment
+        android:id="@+id/nav_refer_a_friend"
+        android:name="com.e.simpletodo.Refer_a_Friend_Fragment"
+        android:label="Refer a friend"
+        tools:layout="@layout/fragment_refer_a__friend_" />
+
+    <!-- TODO: In this place, i changed the (android:name= "com.e.simpletodo.Sign_Out_Fragment") to (android:name="com.e.simpletodo.My_Calender_Fragment") so that if i open the sign out fragment in Navigetion, the Calender fragment will open and then display a dialogue box that will ask you if you want to log or sign out-->
+    <fragment
+        android:id="@+id/nav_sign_out"
+        android:name="com.e.simpletodo.Sign_Out_Fragment"
+        android:label="Sign Out"
+        tools:layout="@layout/fragment_sign__out_" />
+
+
+</navigation>

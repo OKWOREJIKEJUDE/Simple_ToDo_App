@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0A125C</color>
+    <color name="colorPrimaryDark">#0A125C</color>
+    <color name="colorPrimaryDark1">#A0125C</color>
+    <color name="colorAccent">#6317E5</color>
+    <color name="baseGradient">#6317E5</color>
+    <color name="orangeCallTobar1">#FA5908</color>
+    <color name="orangeCallToBar2">#FFBC0D</color>
+    <color name="white">#ffffff</color>
+    <color name="lightblue">#1877F2</color>
+    <color name="colorPrimaryDark2">#AF7991</color>
+    <color name="ash">#c4c4c4</color>
+</resources>
